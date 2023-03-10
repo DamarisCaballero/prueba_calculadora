@@ -1,0 +1,117 @@
+/************* NavBar**************/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#125C13; /* verde */
+  padding: 20px;
+  color: #E8E1D9 ;/* blanco */
+  font-size: 18px;
+}
+
+.logo a {
+  color: rgb(244, 164, 66); /* blanco */
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  color: rgb(244, 164, 66); /* blanco */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/*************titulo**************/
+.header {
+  font-size: 50px;
+  color: #0b8c2b;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2em;
+  display: inline-block;
+  max-width: 100%;
+}
+/************* TITULO**************/
+
+h1 {
+  color: orange;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(195, 20, 17, 0.5);
+}
+
+.card {
+ 
+  background-color: rgb(90, 160, 66);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  margin: 30px auto;
+  width: 50%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.contenedor-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h3:hover {
+  color: rgb(244, 164, 66);
+}
+
+/* Input */
+.form-control {
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.btn-container {
+  text-align: center;
+}
+
+.btn-container button {
+  font-size: 20px;
+  background-color: rgb(244, 164, 66);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-container button:hover {
+  background-color: rgb(237, 147, 52);
+}
+
+
+/************* Card *******************/
